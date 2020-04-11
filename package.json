@@ -1,19 +1,24 @@
 {
   "name": "git-teste",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este é o projeto Git e Node básico",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  	"start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matheuspissa/git-teste.git"
   },
-  "author": "",
+  "author": "Matheus Laureano",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matheuspissa/git-teste/issues"
   },
-  "homepage": "https://github.com/matheuspissa/git-teste#readme"
+  "homepage": "https://github.com/matheuspissa/git-teste#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
